@@ -25,4 +25,3 @@ language = "Afrikaans"
 console.log(language);
 console.log(typeof language);
 
-*/
