@@ -11,17 +11,19 @@ console.log(population)
 
 console.log("ASSIGNMENT 12");
 //DATA TYPES
-let isIsland = false
+let isIsland = false;
 let language;
 
 console.log(typeof country);
-console.log(typeof continent);
 console.log(typeof population);
 console.log(typeof isIsland);
 console.log(typeof language);
 
-language = "Afrikaans"
+language = "Afrikaans";
 
 console.log(language);
 console.log(typeof language);
 
+console.log("ASSIGNMENT 10");
+//let, const and var
+*/

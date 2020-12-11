@@ -52,7 +52,7 @@ console.log(typeof year)
 console.log(typeof null)
 */
 
-
+console.log("LECTURE 13");
 
 
 
