@@ -24,6 +24,14 @@ language = "Afrikaans";
 console.log(language);
 console.log(typeof language);
 
-console.log("ASSIGNMENT 10");
+console.log("ASSIGNMENT 13");
 //let, const and var
+const language = 'Afrikaans';
+
+const continent = 'Africa';
+const country = 'South Africa';
+let population = 80;
+
+country = 'Finland';
 */
+

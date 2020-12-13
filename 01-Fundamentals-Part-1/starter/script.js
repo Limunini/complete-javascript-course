@@ -50,11 +50,28 @@ console.log(typeof year)
 
 //JS bug
 console.log(typeof null)
-*/
+
 
 console.log("LECTURE 13");
+//let, const and var
+let age = 30;
+age = 31;
+age;
 
+const birthYear = 1995
+//birthYear = 1996
+//const job;
 
+var job = 'programmer';
+job = 'teacher';
+
+//Need to declare variable?
+lastName = 'Schmedtman';
+console.log(lastName);
+//^Bad Practice, need to declare it (future chapter)
+*/
+
+console.log("LECTURE 14");
 
 
 
