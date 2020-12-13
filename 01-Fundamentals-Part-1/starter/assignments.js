@@ -35,3 +35,32 @@ let population = 80;
 country = 'Finland';
 */
 
+console.log("ASSIGNMENT 14");
+//Basic Operators
+const language = 'Afrikaans';
+const continent = 'Africa';
+const country = 'South Africa';
+
+let population = 80;
+
+population /= 2
+console.log(population)
+
+population ++;
+console.log(population)
+
+const populationSA = 80;
+const populationFinland = 6;
+
+let isItSmaller = populationSA < populationFinland;
+let isItBigger = populationSA > populationFinland;
+console.log(isItSmaller, isItBigger);
+
+const populationAverage = 33;
+isItSmaller = populationSA < populationAverage;
+console.log(isItSmaller);
+
+const descriptionFirst = 'Portugal is in Europe,';
+const descriptionSecond = 'and its 11 million people speak portuguese.';
+const description = descriptionFirst + ' ' + descriptionSecond;
+console.log(description);
