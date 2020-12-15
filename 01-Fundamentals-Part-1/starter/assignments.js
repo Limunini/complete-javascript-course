@@ -33,7 +33,7 @@ const country = 'South Africa';
 let population = 80;
 
 country = 'Finland';
-*/
+
 
 console.log("ASSIGNMENT 14");
 //Basic Operators
@@ -64,3 +64,15 @@ const descriptionFirst = 'Portugal is in Europe,';
 const descriptionSecond = 'and its 11 million people speak portuguese.';
 const description = descriptionFirst + ' ' + descriptionSecond;
 console.log(description);
+*/
+
+console.log("CODING CHALLENGE 1");
+//Operators Precedence
+
+
+
+
+
+
+
+
