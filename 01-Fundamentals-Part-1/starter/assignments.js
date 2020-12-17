@@ -64,10 +64,129 @@ const descriptionFirst = 'Portugal is in Europe,';
 const descriptionSecond = 'and its 11 million people speak portuguese.';
 const description = descriptionFirst + ' ' + descriptionSecond;
 console.log(description);
-*/
+
 
 console.log("CODING CHALLENGE 1");
-//Operators Precedence
+
+ CODING CHALLENGE #1
+Mark and John are trying to compare their BMI (Body Mass Index), which is
+calculated using the formula:
+BMI = mass / height ** 2 = mass / (height * height) (mass in kg
+and height in meter).
+Your tasks:
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both
+versions)
+3. Create a Boolean variable 'markHigherBMI' containing information about
+whether Mark has a higher BMI than John.
+Test data:
+§ Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95
+m tall.
+§ Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
+m tall.
+
+
+// Test Data 1:
+let weightMark = 78;
+let heightMark = 1.69;
+
+let weightJohn = 92;
+let heightJohn = 1.95;
+
+const bmiMark = weightMark / heightMark ** 2;
+console.log(bmiMark);
+
+const bmiJohn = weightJohn / (heightJohn * heightJohn);
+console.log(bmiJohn);
+
+const markHigherBMI = bmiMark > bmiJohn;
+console.log(markHigherBMI);
+
+// Test Data 2:
+weightMark = 95;
+heightMark = 1.88;
+
+weightJohn = 85;
+heightJohn = 1.76;
+
+const bmiMark2 = weightMark / heightMark ** 2;
+console.log(bmiMark2);
+
+const bmiJohn2 = weightJohn / (heightJohn * heightJohn);
+console.log(bmiJohn2);
+
+const markHigherBMI2 = bmiMark2 > bmiJohn2;
+console.log(markHigherBMI2);
+
+
+
+console.log("ASSIGNMENT 17");
+//Strings and Template Literals
+
+const country = 'Portugal';
+const continent = 'Europe';
+const population = 11;
+const language = 'portuguese';
+
+const description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
+console.log(description);
+
+
+console.log("ASSIGNMENT 18");
+//Decisions: If/else statements
+
+const populationSA = 80
+
+if(populationSA > 33) {
+    console.log(`Portugal's population is above average.`);
+} else {
+    console.log(`Portugal's population is 22 million below average`);
+}
+*/
+
+console.log("CODING CHALLENGE 2");
+/*
+Use the BMI example from Challenge #1, and the code you already wrote, and
+improve it.
+Your tasks:
+1. Print a nice output to the console, saying who has the higher BMI. The message
+is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
+BMI (28.3) is higher than John's (23.9)!"
+Hint: Use an if/else statement
+*/
+// Test Data 1:
+let weightMark = 78;
+let heightMark = 1.69;
+let weightJohn = 92;
+let heightJohn = 1.95;
+
+const bmiMark = weightMark / heightMark ** 2;
+const bmiJohn = weightJohn / (heightJohn * heightJohn);
+console.log(bmiMark,bmiJohn)
+
+if(bmiMark > bmiJohn) {
+    console.log(`Mark's BMI (${bmiMark}) is higher than John's BMI (${bmiJohn})`);
+} else {
+    console.log(`Mark's BMI (${bmiMark}) is lower than John's BMI (${bmiJohn})`);
+}
+
+// Test Data 2:
+weightMark = 95;
+heightMark = 1.88;
+weightJohn = 85;
+heightJohn = 1.76;
+
+const bmiMark2 = weightMark / heightMark ** 2;
+const bmiJohn2 = weightJohn / (heightJohn * heightJohn);
+console.log(bmiMark2,bmiJohn2)
+
+if(bmiMark2 > bmiJohn2) {
+    console.log(`Mark's BMI (${bmiMark2}) is higher than John's BMI (${bmiJohn2})`);
+} else {
+    console.log(`Mark's BMI (${bmiMark2}) is lower than John's BMI (${bmiJohn2})`);
+}
+
 
 
 
