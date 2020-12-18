@@ -142,10 +142,10 @@ if(populationSA > 33) {
 } else {
     console.log(`Portugal's population is 22 million below average`);
 }
-*/
+
 
 console.log("CODING CHALLENGE 2");
-/*
+
 Use the BMI example from Challenge #1, and the code you already wrote, and
 improve it.
 Your tasks:
@@ -154,7 +154,7 @@ is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark
 2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
 BMI (28.3) is higher than John's (23.9)!"
 Hint: Use an if/else statement
-*/
+
 // Test Data 1:
 let weightMark = 78;
 let heightMark = 1.69;
@@ -188,9 +188,26 @@ if(bmiMark2 > bmiJohn2) {
 }
 
 
+console.log("ASSIGNMENT 20");
+//Type conversion and coercion
 
+let n;
 
+n = '9' - '5'; //4
+console.log(n);
 
+n = '19' - '13' + '17'; //617
+console.log(n);
+
+n = '19' - '13' + 17;  //23
+console.log(n);
+
+n = '123' < 57;  //true
+console.log(n);
+
+n = 5 + 6 + '4' + 9 - 4 - 2; //5643
+console.log(n);
+*/
 
 
 

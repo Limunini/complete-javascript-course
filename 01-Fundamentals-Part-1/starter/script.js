@@ -166,4 +166,55 @@ if(birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+
+
+
+console.log("LECTURE 20");
+//Type conversion and coercion
+
+const inputYear = '1991';
+//string+number
+console.log(inputYear + 18);
+
+
+//TYPE CONVERSION
+//conversion of string to number
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+//NaN - not a number (invalid number)
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+
+//conversion of number to string
+console.log(String(23) , 23);
+
+
+//TYPE COERCION
+//string - that means type coercion of number to string
+console.log('I am ' + 23 + ' years old.');
+//does this automatically so it is as follows:
+console.log('I am ' + '23' + ' years old.');
+console.log('I am ' + String(23) + ' years old.');
+
+//numbers - strings changed to numbers
+console.log('23' - '10' - 3);  //10
+console.log('23' * '10');  //230
+console.log('20' / '10');  //2
+console.log('20' > '10');  //true
+//strings - numbers to strings (only in plus)
+console.log('23' + '10' + 3);  //23103
+
+//Guess the output
+let n = '1' + 1;  //'11'
+n = n - 1;  //10
+console.log(n);
+
+n = 2 + 3 + 4 + '5'  //95
+n = '10' - '4' - '3' - 2 +'5';  //15
 */
+
+console.log("LECTURE 21");
+//Truthy and Falsy Values
+
+
