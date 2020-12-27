@@ -207,8 +207,39 @@ console.log(n);
 
 n = 5 + 6 + '4' + 9 - 4 - 2; //5643
 console.log(n);
+
+
+console.log("ASSIGNMENT 22");
+//Equality Operators == vs ===
+
+const numNeighbours = Number(prompt(`How many neighbouring countries does your country have?`));
+
+if(numNeighbours === 1) {
+    console.log(`Only 1 border!`);
+} else if(numNeighbours > 1) {
+    console.log(`More than 1 border!`);
+} else {
+    console.log(`No borders!`);
+}
 */
 
 
+console.log("ASSIGNMENT 24");
+//Logical Operators
+const country = 'South Africa';
+const language = 'Afrikaans';
+const population = 80;
+const isIsland = false
 
+//Sarah's needs
+// const population = 50;
+// const languageEnglish = true;
+// const  isIsland = false
+
+
+if(language === 'English' && population < 50 && !isIsland) {
+    console.log(`Sarah should live in ${country}!`)
+} else {
+    console.log(`Sarah should live in Portugal!`)
+}
 

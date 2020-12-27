@@ -212,7 +212,7 @@ console.log(n);
 
 n = 2 + 3 + 4 + '5'  //95
 n = '10' - '4' - '3' - 2 +'5';  //15
-*/
+
 
 console.log("LECTURE 21");
 //Truthy and Falsy Values
@@ -243,7 +243,81 @@ if(height) {
 }
 
 
+console.log("LECTURE 22");
+//Equality Operators == vs ===
 
+const age = '18';
+
+// === exactly equal to, will return true or false. 
+// Comparison operator (strict equality operator, doesnot do type coercion)
+if(age === 18) console.log('You just became an adult! (strict)');
+
+// == loose operator, does do type coercion.
+if(age == 18) console.log('You just became an adult! (loose)');
+
+// Use strict equality operator to avoid any hard to detect bugs.
+// Manually do type coercion instead of ==
+
+
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if(favourite === 23) {  //23 === 23
+    console.log('Cool! 23 is an amazing number!')
+} else if(favourite === 7) {
+    console.log('Even better! 7 is also very nice!')
+} else if(favourite === 9) {
+    console.log('Even better! 9 is also very nice!')
+} else {
+    console.log('This is not n nice number.. Only 7 and 9 and 23!')
+}
+
+
+// !== strict
+// != loose
+
+if(favourite !== 23) console.log("why not 23?");
+
+
+console.log("LECTURE 23");
+//Boolean Logic
+
+// and, or, not
+
+
+console.log("LECTURE 24");
+//Logical Operators
+
+const hasDriversLicense = true; // A
+const hasGoodVission = true; // B
+
+// AND &&
+console.log(hasDriversLicense && hasGoodVission) ; //true AND false = false
+
+// OR ||
+console.log(hasDriversLicense || hasGoodVission);  //true OR false = true
+
+// NOT !
+console.log(!hasDriversLicense);  //NOT true = false
+
+// if(hasDriversLicense && hasGoodVission) {
+//     console.log(`Sarah is able to drive`);
+// } else {
+//     console.log(`Someone else should drive`);
+// }
+
+
+const isTired = false;  // C
+console.log(hasDriversLicense || hasGoodVission || isTired); 
+console.log(hasDriversLicense && hasGoodVission && isTired); 
+
+if(hasDriversLicense && hasGoodVission && !isTired) {
+    console.log(`Sarah is able to drive`);
+} else {
+    console.log(`Someone else should drive`);
+}
+*/
 
 
 
