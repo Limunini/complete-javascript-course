@@ -242,11 +242,11 @@ if(language === 'English' && population < 50 && !isIsland) {
 } else {
     console.log(`Sarah should live in Portugal!`)
 }
-*/
+
 
 console.log("CODING CHALLENGE 3");
 
-/*
+
 There are two gymnastics teams, Dolphins and Koalas. They compete against each
 other 3 times. The winner with the highest average score wins a trophy!
 Your tasks:
@@ -266,7 +266,7 @@ Test data:
 § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 GOOD LUCK �
-*/
+
 
 //DATA 1:
 let d1 = 96
@@ -359,3 +359,67 @@ if(davg > kavg && davg >= 100) {
 } else {
     console.log(`Something else?`);
 }
+
+
+console.log("ASSIGNMENT 26");
+//Switch Statement
+
+const language = 'afrikaans'
+
+switch(language) {
+    case 'mandarin':
+    case 'chinese':
+        console.log('MOST number of native speakers!');
+        break;
+    case 'spanish':
+        console.log('2nd place in number of native speakers');
+        break
+    case 'english':
+        console.log('3rd place');
+        break
+    case 'hindi':
+        console.log('Number 4');
+        break
+    case 'arabic':
+        console.log('5th most spoken language');
+        break
+    default:  //else statement part - so if none other are true
+        console.log('Great language too :D');
+}
+
+console.log("ASSIGNMENT 28");
+//Conditional Operator
+
+const population = 130
+
+console.log(`Portugal's population is ${population >= 33 ? 'above' : 'below'} average...`)
+
+
+console.log("CODING CHALLENGE 4");
+
+Steven wants to build a very simple tip calculator for whenever he goes eating in a
+restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and
+300. If the value is different, the tip is 20%.
+Your tasks:
+1. Calculate the tip, depending on the bill value. Create a variable called 'tip' for
+this. It's not allowed to use an if/else statement � (If it's easier for you, you can
+start with an if/else statement, and then try to convert it to a ternary
+operator!)
+2. Print a string to the console containing the bill value, the tip, and the final value
+(bill + tip). Example: “The bill was 275, the tip was 41.25, and the total value
+316.25”
+Test data:
+§ Data 1: Test for bill values 275, 40 and 430
+
+Hints:
+§ To calculate 20% of a value, simply multiply it by 20/100 = 0.2
+§ Value X is between 50 and 300, if it's >= 50 && <= 300 �
+GOOD LUCK �
+
+const bill = 275
+const tip = (bill >= 50 && bill <= 300) ? 0.15*bill : 0.2*bill ;
+
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value
+${bill + tip}`)
+*/
