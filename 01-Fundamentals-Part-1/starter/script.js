@@ -1,4 +1,4 @@
-/*
+
 console.log("LECTURE 10");
 //VARIABLES
 let js = 'amazing';
@@ -24,8 +24,8 @@ let job1 = 'programmer';
 let job2 = 'teacher';
 
 console.log(myFirstJob);
-*/
-/*
+
+
 console.log("LECTURE 12");
 //DATA TYPES
 let javascriptIsFun = true;
@@ -394,4 +394,4 @@ if(age>= 18) {
 console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}!!`);
-*/
+
