@@ -44,7 +44,33 @@ console.log(appleOrangeJuice)
 
 // Built in Functions
 const num = Number('23');
+
+
+
+console.log('CLASS 34')
+  //  Function Declarations vs. Expressions
+
+
+  // Function Declaration   - Can call before it is defined
+const age1 = calcAge1(1991);
+console.log(age1);
+
+function calcAge1(birthYear) {
+  //const age = 2037 - birthYear;
+  //return age;
+  return 2037 - birthYear;
+}
+
+
+  //  Function Expression   - Can not call before defined
+const calcAge2 = function (birthYear) {
+  return 2037 - birthYear;
+}
+const age2 = calcAge2(1991);
+console.log(age2);
+
 */
 
 
-
+console.log('CLASS 35')
+  //  Function Declarations vs. Expressions
