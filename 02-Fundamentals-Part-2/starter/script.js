@@ -41,3 +41,6 @@ console.log(appleJuice);
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice)
+
+// Built in Functions
+const num = Number('23');
