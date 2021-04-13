@@ -57,5 +57,23 @@ const ChinaPop3 = percentageOfWorld3(1441);
 
 console.log(SouthAfricaPop3, FinlandPop3, ChinaPop3);
 
- */
 
+console.log('FUNCTIONS CALLING OTHER FUNCTIONS')
+// Lecture 36
+
+const percentageOfWorld3 = populationWorld => (populationWorld/7900)*100;
+
+function describePopulation(country, population) {
+    const popPercentage = percentageOfWorld3(population)
+    const stringReturned = `${country} has ${population} million people which is ${popPercentage}% of the world.`
+    return stringReturned
+}
+
+const SouthAfricaPop4 = describePopulation('South Africa', 80);
+const FinlandPop4 = describePopulation('Finland', 6);
+const ChinaPop4 = describePopulation('China', 1441);
+
+console.log(SouthAfricaPop4);
+console.log(FinlandPop4);
+console.log(ChinaPop4);
+ */
