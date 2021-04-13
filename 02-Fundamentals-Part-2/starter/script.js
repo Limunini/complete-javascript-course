@@ -69,8 +69,37 @@ const calcAge2 = function (birthYear) {
 const age2 = calcAge2(1991);
 console.log(age2);
 
-*/
-
 
 console.log('CLASS 35')
-  //  Function Declarations vs. Expressions
+  //  Arrow Functions
+
+  //  Function Expression
+const calcAge2 = function (birthYear) {
+  return 2037 - birthYear;
+}
+ 
+  //  Arrow Function (special type of function expression)
+
+// 1 paramet, 1 line of code
+const calcAge3 = birthYear => 2037 - birthYear;
+const age3 = calcAge3(1991);
+console.log(age3);
+
+// 1 parameter, multiple lines of code
+const yearsUntilRetirement1 = birthYear => {
+  const age = 2037 - birthYear;
+  const retirement = 65 - age;
+  return retirement;
+}
+console.log(yearsUntilRetirement1(1991));
+
+// multiple parameters, multiple lines of code
+const yearsUntilRetirement2 = (birthYear, firstName) => {
+  const age = 2037 - birthYear;
+  const retirement = 65 - age;
+  //return retirement;
+  return `${firstName} retires in ${retirement} years.`;
+}
+console.log(yearsUntilRetirement2(1991, 'Jonas'));
+console.log(yearsUntilRetirement2(1980, 'Bob'));
+*/

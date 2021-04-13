@@ -45,7 +45,17 @@ console.log(SouthAfricaPop1, FinlandPop1, ChinaPop1)
   
   console.log(SouthAfricaPop2, FinlandPop2, ChinaPop2);
 
-  */
+ 
+console.log('ARROW FUNCTIONS')
+// Lecture 35
 
-  
+const percentageOfWorld3 = populationWorld => (populationWorld/7900)*100;
+
+const SouthAfricaPop3 = percentageOfWorld3(80);
+const FinlandPop3 = percentageOfWorld3(6);
+const ChinaPop3 = percentageOfWorld3(1441);
+
+console.log(SouthAfricaPop3, FinlandPop3, ChinaPop3);
+
+ */
 
