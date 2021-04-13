@@ -120,4 +120,30 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(2, 3));
+
+console.log('CLASS 37')
+  //  Reviewing Functions
+
+const calcAge = function(birthYear) {
+  return 2037 - birthYear
+}
+
+const yearsUntilRetirement2 = function (birthYear, firstName) {
+  const age = calcAge(birthYear);
+  const retirement = 65 - age;
+
+  //return statement exits the if statement
+  if(retirement > 0) {
+    console.log(`${firstName} retires in ${retirement} years.`)
+    return retirement;
+    //  will not post string 2nd time, it is after return
+    console.log(`${firstName} retires in ${retirement} years.`)
+  } else {
+    return -1;
+  }
+}
+
+console.log(yearsUntilRetirement2(1991, 'Jonas'));
+console.log(yearsUntilRetirement2(1950, 'Mike'));
 */
+
