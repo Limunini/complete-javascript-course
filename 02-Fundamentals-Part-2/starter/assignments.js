@@ -77,3 +77,36 @@ console.log(SouthAfricaPop4);
 console.log(FinlandPop4);
 console.log(ChinaPop4);
  */
+
+console.log('CODING CHALLENGE 1')
+
+const calcAverage = (score1, score2, score3) => (score1 + score2 + score3)/3
+//Test Data 1
+let avgDolphins = calcAverage(44, 23, 71);
+let avgKoalas = calcAverage(65, 54, 49);
+console.log(avgDolphins, avgKoalas);
+function checkWinner( avgDolphins, avgKoalas){
+    if (avgDolphins > avgKoalas*2) {
+        return (`Dolphins win! (${avgDolphins} vs ${avgKoalas})`)
+    } else if (avgKoalas > avgDolphins*2) {
+        return (`Koalas win! (${avgKoalas} vs ${avgDolphins})`)
+    } else {
+        return ('No one wins')
+    }
+}
+console.log(checkWinner(avgDolphins, avgKoalas));
+
+//Test Data 2
+avgDolphins = calcAverage(85, 54, 41);
+avgKoalas = calcAverage(23, 34, 27);
+console.log(avgDolphins, avgKoalas);
+function checkWinner( avgDolphins, avgKoalas){
+    if (avgDolphins > avgKoalas*2) {
+        return (`Dolphins win! (${avgDolphins} vs ${avgKoalas})`)
+    } else if (avgKoalas > avgDolphins*2) {
+        return (`Koalas win! (${avgKoalas} vs ${avgDolphins})`)
+    } else {
+        return ('No one wins')
+    }
+}
+console.log(checkWinner(avgDolphins, avgKoalas));
