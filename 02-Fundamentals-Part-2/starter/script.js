@@ -16,7 +16,7 @@ if (hasDriverLicense) console.log('I can drive :D')
 //const interface = 'Audio';  //gives error 'interface' is saved for potential future features in JS
 //const private = 534;  //also gives error like interface
 //const if = true;
-*/
+
 
 console.log('CLASS 33')
   //  Functions
@@ -44,3 +44,7 @@ console.log(appleOrangeJuice)
 
 // Built in Functions
 const num = Number('23');
+*/
+
+
+
