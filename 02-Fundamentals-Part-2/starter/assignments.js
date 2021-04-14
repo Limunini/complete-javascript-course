@@ -154,4 +154,25 @@ const percentageOfWorld = populationCountry => (populationCountry/7900)*100;
 
 const percentages = [percentageOfWorld(SAPop), percentageOfWorld(FinPop), percentageOfWorld(ChinaPop), percentageOfWorld(UKPop)]
 console.log(percentages);
+
+
+// Lecture 40 - Methods
+
+const neighbours = ['Namibia', 'Botswana', 'Zimbabwe'];
+console.log(neighbours);
+
+neighbours.push('Utopia');
+console.log(neighbours);
+
+neighbours.pop();
+console.log(neighbours);
+
+if (!neighbours.includes('Germany')) {
+    console.log('Probably not a central European country :D')
+} else {
+    console.log('Definitely in Europe');
+}
+
+neighbours[neighbours.indexOf('Zimbabwe')] = 'Zimbabweeee';
+console.log(neighbours);
 */

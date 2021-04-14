@@ -195,4 +195,39 @@ const ages = [calcAge(years[0]), age2, calcAge(years[years.length - 1])]  //  Ca
 console.log(ages);
 */
 
+console.log('CLASS 40')
+  //  Array Methods
 
+const friends = ['Michael', 'Steven', 'Peter' ];
+
+  // ADD ELEMENTS
+const newLength = friends.push('Jay');  //  Function we call, add element to the end of an array. Returns new length of the array (usually don't use it for length, but rather to jsut add element)
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('John');  // adds element to the start of array, also returns new length
+console.log(friends);
+
+  // REMOVE ELEMENTS
+const popped = friends.pop();  // Removes last element, don't need to add argument. Returns the removed element
+console.log(friends);
+console.log(popped);
+friends.pop();
+console.log(friends);
+
+friends.shift(); // Removes first element in array, returns element that was removed.
+console.log(friends);
+
+  // Can look for element
+console.log(friends.indexOf('Steven'))  // returns 1
+console.log(friends.indexOf('Bob'))  // returns -1 (element does not exist)
+
+  // Returns True or False if element is in array (strict equality - does not do type coercion).
+console.log(friends.includes('Steven'))  // returns true
+console.log(friends.includes('Bob'))  // returns false
+
+if (friends.includes('Peter')) {
+  console.log('You have a friend named Peter')
+} else if (friends.includes('Steven')) {
+  console.log('You have a friend named Steven')
+}
