@@ -145,5 +145,54 @@ const yearsUntilRetirement2 = function (birthYear, firstName) {
 
 console.log(yearsUntilRetirement2(1991, 'Jonas'));
 console.log(yearsUntilRetirement2(1950, 'Mike'));
+
+
+console.log('CLASS 39')
+  //  Introduction to Arrays
+  
+const friend1 = 'Michael';
+const friend2 = 'Steven';
+const friend3 = 'Peter';
+
+  // Arrays are data structures. 
+  //Block brackets (literal syntax) or new Array()
+
+const friends = ['Michael', 'Steven', 'Peter' ];
+console.log(friends);
+
+const y = new Array(1991, 1984, 2008, 2020);
+console.log(y);
+
+  // Arrays are 0 based. Index starts at 0
+console.log(friends[0]);  // Micheal
+console.log(friends[2]);  // Peter
+
+console.log(friends.length);    // Array property
+console.log(friends[friends.length - 1]);    // Can use length to get last index of array
+
+  // Can change arrays
+friends[2] = 'Jay';  // friends declared as const, but only primitive values can't be changed. 
+//friends = ['Alice', 'Bob'] //  Arrays can be mutated, not replaced entirely
+console.log(friends);
+
+  // can put variables, other arrays, etc in an array. JS just expects an expression.
+const firstName = 'Jonas'
+const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+console.log(jonas);  // can click arrow next to array in browser to open more info and see the friends array and length and stuff.
+
+  // From previous exercise
+const calcAge = function(birthYear) {
+  return 2037 - birthYear;
+}
+const years = [1990, 1967, 2002, 2010, 2018];
+//  console.log(calcAge(years))  // Won't work, since it is an array
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+console.log(age1, age2, age3);
+
+const ages = [calcAge(years[0]), age2, calcAge(years[years.length - 1])]  //  Can also put functions etc in the array as long as it is an expression
+console.log(ages);
 */
+
 
