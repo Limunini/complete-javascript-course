@@ -193,7 +193,7 @@ console.log(age1, age2, age3);
 
 const ages = [calcAge(years[0]), age2, calcAge(years[years.length - 1])]  //  Can also put functions etc in the array as long as it is an expression
 console.log(ages);
-*/
+
 
 console.log('CLASS 40')
   //  Array Methods
@@ -231,3 +231,8 @@ if (friends.includes('Peter')) {
 } else if (friends.includes('Steven')) {
   console.log('You have a friend named Steven')
 }
+*/
+
+
+console.log('CLASS 42')
+  //  Intro to Objects
