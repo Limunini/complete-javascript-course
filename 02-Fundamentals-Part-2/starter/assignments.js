@@ -231,4 +231,16 @@ console.log(tips);
 const totals = [totalBill(bills[0]), totalBill(bills[1]), totalBill(bills[2])]
  // Can also add them together index by index
 console.log(totals);
+
+
+console.log('OBJECTS')
+// Lecture 42 - Intro
+
+const myCountry = {
+    country: 'South Africa',
+    language: 'Afrikaans',
+    population: 60,
+    neighbours: ['Namibia', 'Botswana', 'Zimbabwe']
+}
+
 */

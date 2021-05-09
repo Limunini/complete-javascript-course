@@ -231,8 +231,80 @@ if (friends.includes('Peter')) {
 } else if (friends.includes('Steven')) {
   console.log('You have a friend named Steven')
 }
-*/
+
 
 
 console.log('CLASS 42')
   //  Intro to Objects
+
+  //Array recap
+  const jonasArray = [
+    'Jonas',
+    'Schmedtman',
+    2037-1991,
+    'teacher',
+    ['Micheal', 'Peter', 'Steven']
+  ];
+  // Cant give values in array a name
+
+
+// OBJECTS
+  // 5 keys or property each with a value in the object.
+  // Object literal syntax
+const jonas = {
+  firstName: 'Jonas',
+  lastName: 'Schmedtman',
+  age: 2037 - 1991,
+  job: 'teacher',
+  friends: ['Micheal', 'Peter', 'Steven']
+}
+
+console.log(jonas)
+// Order of properties don't matter in objects, unlike arrays where element order matters.
+*/
+
+
+console.log('CLASS 43')
+  //  DOT vs BRACKET notation
+ const jonas = {
+  firstName: 'Jonas',
+  lastName: 'Schmedtman',
+  age: 2037 - 1991,
+  job: 'teacher',
+  friends: ['Micheal', 'Peter', 'Steven']
+};
+console.log(jonas);
+// HOW TO GET PROPERTY IN OBJECT
+
+ // DOT NOTATION
+ console.log(jonas.lastName);
+ //console.log(jonas.'last' + nameKey)   doesn't work
+
+ // BRACKET NOTATION
+ console.log(jonas['lastName']);
+ console.log(jonas['lastName']);
+
+ const nameKey = 'Name';
+ console.log(jonas['first' + nameKey]);
+ console.log(jonas['last' + nameKey]);
+
+
+ const interestedIn = prompt('What do you want to know about Jonas?');
+ //console.log(jonas.interestedIn);   - doesnt have property interestedIn
+
+ if(jonas[interestedIn]) {
+  console.log(jonas[interestedIn]);
+ } else {
+  console.log("Wrong request!");
+ }
+
+jonas.location = 'Portugal';
+jonas['twitter'] = '@jonasschmedtman';
+console.log(jonas);
+
+// CHALLENGE
+//"Jona has 3 friends, and his best friend is called Micheal"
+
+const sentence = jonas.firstName + ' has ' + jonas.friends.length + ' friends and his best friend is called ' + jonas.friends[0]
+console.log(sentence);
+console.log( `${jonas.firstName} has ${jonas.friends.length} friends and his best friend is called ${jonas.friends[0]}`)
